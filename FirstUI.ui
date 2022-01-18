@@ -1,0 +1,154 @@
+<?xml version='1.0' encoding='utf-8'?>
+<interface version="1.1">
+  <object class="tk.Frame" id="frame1">
+    <property name="height">200</property>
+    <property name="width">500</property>
+    <layout manager="grid">
+      <property name="column">0</property>
+      <property name="propagate">True</property>
+      <property name="row">0</property>
+    </layout>
+    <child>
+      <object class="tk.Entry" id="entry1">
+        <property name="width">100</property>
+        <layout manager="grid">
+          <property name="column">2</property>
+          <property name="propagate">True</property>
+          <property name="row">1</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="tk.Button" id="button1">
+        <property name="command" type="command" cbtype="simple">load_csv</property>
+        <property name="text" translatable="yes">Browse</property>
+        <layout manager="grid">
+          <property name="column">1</property>
+          <property name="propagate">True</property>
+          <property name="row">1</property>
+          <property name="sticky">e</property>
+          <property type="col" id="1" name="minsize">150</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="tk.Label" id="label1">
+        <property name="anchor">n</property>
+        <property name="compound">left</property>
+        <property name="cursor">arrow</property>
+        <property name="font">TkDefaultFont</property>
+        <property name="text" translatable="yes">CSV file</property>
+        <layout manager="grid">
+          <property name="column">1</property>
+          <property name="propagate">True</property>
+          <property name="row">1</property>
+          <property name="sticky">w</property>
+          <property type="col" id="1" name="minsize">150</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="tk.Entry" id="entry2">
+        <property name="width">100</property>
+        <layout manager="grid">
+          <property name="column">2</property>
+          <property name="propagate">True</property>
+          <property name="row">2</property>
+          <property type="row" id="2" name="minsize">00</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="tk.Button" id="button2">
+        <property name="command" type="command" cbtype="simple">load_xml</property>
+        <property name="justify">left</property>
+        <property name="takefocus">true</property>
+        <property name="text" translatable="yes">Browse</property>
+        <layout manager="grid">
+          <property name="column">1</property>
+          <property name="propagate">True</property>
+          <property name="row">2</property>
+          <property name="sticky">e</property>
+          <property type="col" id="1" name="minsize">150</property>
+          <property type="row" id="2" name="minsize">00</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="tk.Label" id="label2">
+        <property name="text" translatable="yes">XML types Name</property>
+        <layout manager="grid">
+          <property name="column">1</property>
+          <property name="propagate">True</property>
+          <property name="row">2</property>
+          <property name="sticky">w</property>
+          <property type="col" id="1" name="minsize">150</property>
+          <property type="row" id="2" name="minsize">00</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="tk.Entry" id="entry3">
+        <property name="width">40</property>
+        <layout manager="grid">
+          <property name="column">2</property>
+          <property name="propagate">True</property>
+          <property name="row">3</property>
+          <property name="sticky">w</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="tk.Label" id="label3">
+        <property name="text" translatable="yes">New File Name</property>
+        <layout manager="grid">
+          <property name="column">1</property>
+          <property name="propagate">True</property>
+          <property name="row">3</property>
+          <property name="sticky">w</property>
+          <property type="col" id="1" name="minsize">150</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="tk.Entry" id="entry7">
+        <property name="width">40</property>
+        <layout manager="grid">
+          <property name="column">2</property>
+          <property name="propagate">True</property>
+          <property name="row">3</property>
+          <property name="sticky">e</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="tk.Label" id="label7">
+        <property name="compound">bottom</property>
+        <property name="justify">left</property>
+        <property name="text" translatable="yes">User Name</property>
+        <layout manager="grid">
+          <property name="column">2</property>
+          <property name="propagate">True</property>
+          <property name="row">3</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="tk.Button" id="button8">
+        <property name="anchor">n</property>
+        <property name="command" type="command" cbtype="simple">run_script</property>
+        <property name="compound">center</property>
+        <property name="height">3</property>
+        <property name="text" translatable="yes">
+R U N</property>
+        <property name="width">15</property>
+        <layout manager="grid">
+          <property name="column">2</property>
+          <property name="propagate">True</property>
+          <property name="row">10</property>
+          <property type="row" id="10" name="minsize">100</property>
+        </layout>
+      </object>
+    </child>
+  </object>
+</interface>
