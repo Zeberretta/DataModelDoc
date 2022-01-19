@@ -7,7 +7,7 @@ To use this script you will first need to get all data from the repository
 
 After opening your BI Administration Tool, open the RPD using the Cloud option (BI administration tool -> Open -> Cloud) and log in:
 
-![DataModelDocScreenshot_](https://user-images.githubusercontent.com/26796318/150189173-4453e422-9e53-49d0-88ea-612f200be1b6.png)
+![DataModelDocScreenshot_](https://user-images.githubusercontent.com/26796318/150196143-6f3c2025-cb0a-4030-b0de-290e8dbed51b.png)
 
 
 After opened, you can download the CSV and the XML files using the utilities tool
