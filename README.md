@@ -1,6 +1,6 @@
 # DataModelDoc
 Repository for Model Documentation Automation
-
+Here are the instructions to setup the tool and generate the documentation
 
 ## RPD setup and data download
 To use this script you will first need to get all data from the repository
