@@ -2,7 +2,7 @@
 Repository for Model Documentation Automation
 
 
-# RPD setup and data download
+## RPD setup and data download
 To use this script you will first need to get all data from the repository
 
 After opening your BI Administration Tool, open the RPD using the Cloud option (BI administration tool -> Open -> Cloud) and log in:
@@ -23,6 +23,15 @@ XML file
 ![DataModelDocScreenshot3](https://user-images.githubusercontent.com/26796318/150190462-9c0f540d-9df3-40c3-8f55-d89189ab44f4.png)
 
 
-# Data Model Documentation tool
+## Data Model Documentation tool
 
+To use the script you will need to have Python 3.x installed and all libaries from the requirement.txt file as well.
 
+After getting the .py files, you should run the GUI.py script to get this window
+
+![image](https://user-images.githubusercontent.com/26796318/150193170-1e7e5e32-a47f-405b-a345-bd324a8ed2b8.png)
+
+Here you can add those files that you got from the RPD, the CSV and the XML, through the 'Browse' buttons.
+Add also the name that you want for the generated file and your name.
+
+After this setup, the new documentation workbook will be generated in the same folder where the CSV file is and opened up by clicking 'RUN'
