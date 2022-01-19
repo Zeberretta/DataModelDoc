@@ -2,8 +2,8 @@
 Repository for Model Documentation Automation
 
 
+# RPD setup and data download
 To use this script you will first need to get all data from the repository
-
 
 After opening your BI Administration Tool, open the RPD using the Cloud option (BI administration tool -> Open -> Cloud) and log in:
 
@@ -21,4 +21,8 @@ XML file
   Tools -> Utilities... -> Generate Logical Column Type Document
   
 ![DataModelDocScreenshot3](https://user-images.githubusercontent.com/26796318/150190462-9c0f540d-9df3-40c3-8f55-d89189ab44f4.png)
+
+
+# Data Model Documentation tool
+
 
