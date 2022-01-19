@@ -25,9 +25,8 @@ XML file
 
 ## Data Model Documentation tool
 
-To use the script you will need to have Python 3.x installed and all libaries from the requirement.txt file as well.
-
-After getting the .py files, you should run the GUI.py script to get this window
+Running the Makefile script, you should get all requiriments installed as well as the python version needed.
+It will also run the GUI.py script to get this window
 
 ![image](https://user-images.githubusercontent.com/26796318/150193170-1e7e5e32-a47f-405b-a345-bd324a8ed2b8.png)
 
